@@ -1,6 +1,5 @@
-import os
-import subprocess
-from telegram import Update, ParseMode
+from telegram import Update
+from telegram.parsemode import ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 TOKEN = "6592552636:AAEk_MWhr3IoYuuKggs8ZA24NK_4NXYEnFg"
